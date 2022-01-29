@@ -70,3 +70,23 @@ p{
     color: hsl(0, 0%, 95%);
     border: 2px solid  hsl(0, 0%, 95%);
 }
+@media only screen and (max-width :620px){
+    .preview-card{
+        flex-direction: column;
+        height: 80%;
+    }
+    .preview-card,.card__first-column,.card__second-column,.card__third-column{
+        width: 80%
+    }
+    .card__first-column{
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+    }
+    .card__third-column{
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-right-radius: 0;
+    }
+
+}
