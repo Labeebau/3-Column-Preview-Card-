@@ -55,6 +55,8 @@ p{
     height: 2.5rem;
     margin-top: 4rem;
     width: 8rem;
+    transition: color .3s ease-in-out;
+
 }
 .card__btn--first-column{
     color: hsl(31, 77%, 52%);
