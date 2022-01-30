@@ -5,6 +5,9 @@ body{
     vertical-align: middle;
 
 }
+main{
+    max-width: 898px;
+}
 h1{
     font-family: 'Big Shoulders Display',cursive;
     color: hsl(0, 0%, 95%) ;
